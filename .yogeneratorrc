@@ -33,6 +33,10 @@
     {
       "name": "Main nav",
       "value": "main-nav"
+    },
+    {
+      "name": "Add tap state buttons",
+      "value": "add-tap-state-buttons"
     }
   ],
   "service": [],

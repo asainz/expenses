@@ -19,6 +19,10 @@
     text-transform: none;
     line-height: 1;
 
+    // if icons are use in <button>'s we've got to remove the background and border
+    background: none;
+    border:none;
+
     /* Better Font Rendering =========== */
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
