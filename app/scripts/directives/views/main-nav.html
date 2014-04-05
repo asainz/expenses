@@ -2,7 +2,7 @@
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
-            <div><span class="icon icon-menu"></span></div>
+            <div><span class="icon icon-menu" ng-click="toggleMenu()"></span></div>
             <div><span>{{title}}</span></div>
             <div ng-switch on="rightButton">
                 <span ng-switch-when="add" class="icon icon-plus" ng-click="goToAdd()"></span>

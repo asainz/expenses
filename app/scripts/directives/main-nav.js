@@ -14,6 +14,9 @@ angular.module('Directives').directive('mainNav', function () {
 
         },
         controller: function($scope, $location){
+            $scope.toggleMenu = function(){
+                $location.path('dashboard');
+            };
             $scope.goToAdd = function(){
                 $location.path('expense/add/');
             };
