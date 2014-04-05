@@ -54,7 +54,12 @@
       "value": "expenses"
     }
   ],
-  "provider": [],
+  "provider": [
+    {
+      "name": "Mockey requests interceptor",
+      "value": "mockey-requests-interceptor"
+    }
+  ],
   "value": [],
   "constant": [],
   "view": [

@@ -16,7 +16,9 @@ var _mainModules = [
 
 
 angular.module('Expenses', _mainModules )
-    .config( function($routeProvider){
+    .config( function($routeProvider, MockeyRequestsInterceptorSrvProvider){
+        MockeyRequestsInterceptorSrvProvider.startIntercepting(true);
+
         //redirect any invalid hash to /home
         $routeProvider.otherwise({
             redirectTo: '/dashboard'
