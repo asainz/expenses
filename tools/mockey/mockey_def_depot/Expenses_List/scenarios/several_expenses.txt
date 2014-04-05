@@ -1,0 +1,18 @@
+[{
+    "id": "213123123123",
+    "created": "54534534534",
+    "edited": "432423423423",
+    "details": {
+        "amount": {
+            "value": 18.2,
+            "type": "currency"
+        },
+        "description": "this is my expense",
+        "category": "313213123123",
+        "date": {
+            "value": "2312313123",
+            "type": "date"
+        },
+        "paymentType": "23123123123"
+    }
+}]

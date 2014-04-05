@@ -1,0 +1,33 @@
+{
+  "isBowerComponent": false,
+  "feature": [
+    {
+      "name": "Dashboard",
+      "value": "dashboard"
+    }
+  ],
+  "controller": [
+    {
+      "name": "Dashboard",
+      "value": "dashboard"
+    }
+  ],
+  "filter": [],
+  "directive": [],
+  "service": [],
+  "factory": [
+    {
+      "name": "Expenses",
+      "value": "expenses"
+    }
+  ],
+  "provider": [],
+  "value": [],
+  "constant": [],
+  "view": [
+    {
+      "name": "Dashboard",
+      "value": "dashboard"
+    }
+  ]
+}

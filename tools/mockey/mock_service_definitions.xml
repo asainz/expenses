@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<mockservice version="1.0" xml:lang="en-US">
+<proxy_settings proxy_enabled="false" proxy_url=""/>
+<serviceref file="./mockey_def_depot/Expenses_List/Expenses_List.xml"/>
+</mockservice>
