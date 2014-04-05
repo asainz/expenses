@@ -37,6 +37,10 @@
     {
       "name": "Add tap state buttons",
       "value": "add-tap-state-buttons"
+    },
+    {
+      "name": "Show validation messages",
+      "value": "show-validation-messages"
     }
   ],
   "service": [],
