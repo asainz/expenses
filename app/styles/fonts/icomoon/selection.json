@@ -1,0 +1,123 @@
+{
+	"IcoMoonType": "selection",
+	"icons": [
+		{
+			"icon": {
+				"paths": [
+					"M992 384h-352v-352c0-17.672-14.328-32-32-32h-192c-17.672 0-32 14.328-32 32v352h-352c-17.672 0-32 14.328-32 32v192c0 17.672 14.328 32 32 32h352v352c0 17.672 14.328 32 32 32h192c17.672 0 32-14.328 32-32v-352h352c17.672 0 32-14.328 32-32v-192c0-17.672-14.328-32-32-32z"
+				],
+				"tags": [
+					"plus",
+					"add",
+					"sum"
+				],
+				"grid": 16,
+				"matchesSearch": false
+			},
+			"properties": {
+				"id": 258,
+				"order": 1,
+				"prevSize": 32,
+				"code": 58881,
+				"name": "plus",
+				"ligatures": ""
+			},
+			"setIdx": 0,
+			"iconIdx": 258
+		},
+		{
+			"icon": {
+				"paths": [
+					"M64 192h896v192h-896zM64 448h896v192h-896zM64 704h896v192h-896z"
+				],
+				"tags": [
+					"menu",
+					"list",
+					"items",
+					"lines",
+					"options"
+				],
+				"grid": 16,
+				"matchesSearch": false
+			},
+			"properties": {
+				"id": 184,
+				"order": 2,
+				"prevSize": 32,
+				"code": 58880,
+				"name": "menu",
+				"ligatures": ""
+			},
+			"setIdx": 0,
+			"iconIdx": 184
+		},
+		{
+			"icon": {
+				"paths": [
+					"M0 832h1024v128h-1024zM128 576h128v192h-128zM320 320h128v448h-128zM512 512h128v256h-128zM704 128h128v640h-128z"
+				],
+				"tags": [
+					"bars",
+					"statistics",
+					"stats",
+					"chart",
+					"graph"
+				],
+				"grid": 16,
+				"matchesSearch": true
+			},
+			"properties": {
+				"id": 151,
+				"order": 3,
+				"prevSize": 32,
+				"code": 58882,
+				"name": "bars",
+				"ligatures": ""
+			},
+			"setIdx": 0,
+			"iconIdx": 151
+		}
+	],
+	"height": 1024,
+	"metadata": {
+		"name": "icomoon"
+	},
+	"preferences": {
+		"fontPref": {
+			"prefix": "icon-",
+			"metadata": {
+				"fontFamily": "icomoon"
+			},
+			"showGlyphs": true,
+			"metrics": {
+				"emSize": 512,
+				"baseline": 6.25,
+				"whitespace": 50
+			},
+			"resetPoint": 58880,
+			"showQuickUse": true,
+			"quickUsageToken": false,
+			"showMetrics": true,
+			"showMetadata": false,
+			"autoHost": true
+		},
+		"imagePref": {
+			"color": 0,
+			"height": 32,
+			"columns": 16,
+			"margin": 16,
+			"png": false,
+			"sprites": true
+		},
+		"historySize": 100,
+		"showCodes": true,
+		"gridSize": 16,
+		"showLiga": false,
+		"showGrid": true,
+		"showGlyphs": true,
+		"showQuickUse": true,
+		"quickUsageToken": {
+			"UntitledProject1": "ZWE5NTMwNWY4ZWVmNWZiZDYzZWZhZjhkZWQxNmZmMDYjMiMxMzk2NzIwOTI4IyMj"
+		}
+	}
+}

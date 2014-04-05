@@ -1,0 +1,9 @@
+.dashboard{
+    @include flexbox();
+    flex-wrap: wrap;
+    justify-content: space-between;
+    // align-content: space-between;
+
+    padding: 1em;
+    padding-top: 0;
+}

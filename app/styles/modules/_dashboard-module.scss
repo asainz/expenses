@@ -1,0 +1,13 @@
+.dashboard-module{
+    padding: 1em 2em;
+    margin-top: 1em;
+    background: rgb(226, 226, 226);
+
+    &.full-length{
+        flex-basis: 100%;
+    }
+
+    &.box{
+        flex-basis: 45%;
+    }
+}

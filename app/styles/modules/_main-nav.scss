@@ -1,7 +1,10 @@
 .main-nav{
     background: rgb(253, 152, 0);
     font-size: 2em;
-    padding: .1em 0;
+    padding: .125em 0;
+    border-bottom: none;
+
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.8);
 
     &.navbar{
         min-height: 0;
