@@ -4,12 +4,28 @@
     {
       "name": "Dashboard",
       "value": "dashboard"
+    },
+    {
+      "name": "Expense",
+      "value": "expense"
     }
   ],
   "controller": [
     {
       "name": "Dashboard",
       "value": "dashboard"
+    },
+    {
+      "name": "Expense",
+      "value": "expense"
+    },
+    {
+      "name": "Expense add",
+      "value": "expense-add"
+    },
+    {
+      "name": "Expense edit",
+      "value": "expense-edit"
     }
   ],
   "filter": [],
@@ -33,6 +49,14 @@
     {
       "name": "Dashboard",
       "value": "dashboard"
+    },
+    {
+      "name": "Expense",
+      "value": "expense"
+    },
+    {
+      "name": "Expense add",
+      "value": "expense-add"
     }
   ]
 }

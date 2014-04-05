@@ -1,0 +1,43 @@
+<div>
+    <main-nav title="mainNav.title" right-button="save" left-button="menu"></main-nav>
+
+    <div class="app-content">
+
+        <div class="expense-add">
+            
+            <form action="" role="form" novalidate>
+                <div class="form-group">
+                    <label for="amount">Amount</label>
+                    <input type="number" class="form-control" id="amount" name="amount" ng-model="fields.amount" placeholder="$150,20">
+                </div>
+
+                <div class="form-group">
+                    <label for="description">Description</label>
+                    <textarea class="form-control" id="description" name="description" ng-model="fields.description" placeholder="Pizza!"></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="category">Category</label>
+                    <select class="form-control">
+                        <option value="food">Food</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="paymentType">Payment Type</label>
+                    <select class="form-control">
+                        <option value="food">Food</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="category">Date</label>
+                    <input class="form-control" type="date" ng-model="fields.date">
+                </div>
+
+            </form>
+
+        </div>
+
+    </div>
+</div>

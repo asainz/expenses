@@ -5,16 +5,18 @@ angular.module('Directives').directive('mainNav', function () {
         restrict: 'E',
         scope: {
             title: '=title',
-            rightButton: '=rightButton',
-            leftButton: '=leftButton'
+            rightButton: '@rightButton',
+            leftButton: '@leftButton'
         },
         replace: true,
         templateUrl: 'scripts/directives/views/main-nav.html',
         link: function(){
 
         },
-        controller: function(){
-
+        controller: function($scope, $location){
+            $scope.goToAdd = function(){
+                $location.path('expense/add/');
+            };
         }
     };
 });

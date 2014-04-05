@@ -4,7 +4,10 @@
         <div class="navbar-header">
             <div><span class="icon icon-menu"></span></div>
             <div><span>{{title}}</span></div>
-            <div><span class="icon icon-plus"></span></div>
+            <div ng-switch on="rightButton">
+                <span ng-switch-when="add" class="icon icon-plus" ng-click="goToAdd()"></span>
+                <span ng-switch-when="save" class="icon icon-checkmark"></span>
+            </div>
         </div>
     </div>
 </nav>

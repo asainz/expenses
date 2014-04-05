@@ -10,6 +10,7 @@ var _mainModules = [
     ,'ngTouch'
     ,'ngLocale'
     ,'Dashboard'
+    ,'Expense'
     // yo:ngMainModules
 ];
 
@@ -28,6 +29,30 @@ angular.module('Expenses', _mainModules )
             params: {
                 templateUrl: 'scripts/dashboard/views/dashboard.html',
                 controller: 'DashboardCtrl'
+            }
+        });
+        
+        routes.push({
+            name: '/expense/add',
+            params: {
+                templateUrl: 'scripts/expense/views/expense-add.html',
+                controller: 'ExpenseAddCtrl'
+            }
+        });
+        
+        routes.push({
+            name: '/expense/:id',
+            params: {
+                templateUrl: 'scripts/expense/views/expense.html',
+                controller: 'ExpenseCtrl'
+            }
+        });
+
+        routes.push({
+            name: '/expense/:id/edit',
+            params: {
+                templateUrl: 'scripts/expense/views/expense.html',
+                controller: 'ExpenseEditCtrl'
             }
         });
         
