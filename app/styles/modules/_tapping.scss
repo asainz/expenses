@@ -2,7 +2,11 @@
     border: none;
     outline: none;
 
+    // add a box-shadow to every element that's being tapped. Icons will override this behavior
+    box-shadow: 0 0 30px 0 rgba(0,0,0,.6);
+
     &.icon{
+        box-shadow: none;
         text-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
     }
 }

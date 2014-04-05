@@ -1,8 +1,8 @@
 'use strict';
 
-angular.module('Directives').directive('button', function () {
+angular.module('Directives').directive('ngClick', function () {
     return {
-        restrict: 'E',
+        restrict: 'A',
         link: function(scope, el){
             el.bind('touchstart', function(){
                 el.addClass('tapping');
