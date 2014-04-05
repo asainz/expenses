@@ -17,6 +17,7 @@ module.exports = function(config) {
         // list of files / patterns to load in the browser
         files: [
             // bower:js
+            'app/bower_components/jquery/dist/jquery.js',
             'app/bower_components/es5-shim/es5-shim.js',
             'app/bower_components/angular/angular.js',
             'app/bower_components/json3/lib/json3.min.js',
@@ -25,6 +26,8 @@ module.exports = function(config) {
             'app/bower_components/angular-animate/angular-animate.js',
             'app/bower_components/angular-touch/angular-touch.js',
             'app/bower_components/underscore/underscore.js',
+            'app/bower_components/bootstrap/dist/js/bootstrap.js',
+            'app/bower_components/angular-bootstrap/ui-bootstrap-tpls.js',
             // endbower
             'node_modules/jasmine-expect/dist/jasmine-matchers.js',
             'app/scripts/{,*/}/*.js',

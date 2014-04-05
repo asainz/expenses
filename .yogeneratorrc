@@ -13,7 +13,12 @@
     }
   ],
   "filter": [],
-  "directive": [],
+  "directive": [
+    {
+      "name": "Main nav",
+      "value": "main-nav"
+    }
+  ],
   "service": [],
   "factory": [
     {

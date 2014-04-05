@@ -1,0 +1,26 @@
+.main-nav{
+    background: rgb(253, 152, 0);
+    font-size: 2em;
+    padding: .1em 0;
+
+    &.navbar{
+        min-height: 0;
+    }
+
+    .navbar-header{
+        overflow: hidden;
+        text-align: center;
+        padding: 0 .3em;
+
+        & > div{
+            display: inline-block;
+        }
+
+        & > div:first-child{
+            float: left;
+        }
+        & > div:last-child{
+            float: right;
+        }
+    }
+}

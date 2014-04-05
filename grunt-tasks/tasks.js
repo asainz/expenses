@@ -7,7 +7,7 @@ module.exports = function(grunt) {
         }
         grunt.task.run([
             'jshint',
-            'bowerInstall',
+            // 'bowerInstall',
             'compass:dev',
             'csslint',
             // 'start-mockey',
