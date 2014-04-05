@@ -41,6 +41,10 @@
     {
       "name": "Show validation messages",
       "value": "show-validation-messages"
+    },
+    {
+      "name": "Blur focus inputs",
+      "value": "blur-focus-inputs"
     }
   ],
   "service": [],
