@@ -17,5 +17,5 @@ angular.module('Directives').directive('ngClick', function () {
         controller: function(){
 
         }
-    }
+    };
 });

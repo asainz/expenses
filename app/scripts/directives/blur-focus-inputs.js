@@ -1,3 +1,5 @@
+'use strict';
+
 /*
  * Created with Sublime Text 2.
  * User: song.chen

@@ -7,5 +7,5 @@ angular.module('Dashboard').controller('DashboardCtrl', function ($scope, $locat
 
     $scope.showStats = function(){
         $location.path('expense/23123123123');
-    }
+    };
 });

@@ -29,7 +29,7 @@ angular.module('Directives').directive('input', function($timeout){
             // keyup for text inputs
             // change for radiobuttons/checkboxes
             angular.forEach('keyup change'.split(' '), function(eventName){
-                elm.on(eventName, function (e) {
+                elm.on(eventName, function () {
                     checkIfMessageShouldShow();
                 });
             });
@@ -43,5 +43,5 @@ angular.module('Directives').directive('input', function($timeout){
             });
 
         }
-    }
+    };
 });
