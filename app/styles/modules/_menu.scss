@@ -1,0 +1,26 @@
+$menu-stripe-height: 50px;
+$menu-stripe-color-1: #5d9634;
+$menu-stripe-color-2: #538c2b;
+
+.menu{
+    display: flex;
+    align-items: flex-end;
+
+    height: 100%;
+
+    background: repeating-linear-gradient(0deg, $menu-stripe-color-1, $menu-stripe-color-1 $menu-stripe-height, $menu-stripe-color-2 $menu-stripe-height, $menu-stripe-color-2 $menu-stripe-height*2);
+
+    ul{
+        padding: 0;
+        margin: 0;
+    }
+
+    li{
+        list-style: none;
+        height: $menu-stripe-height;
+        line-height: $menu-stripe-height;
+        padding-left: 1em;
+        color: rgb(221, 221, 221);
+        font-size: 1.5em;
+    }
+}

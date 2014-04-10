@@ -11,23 +11,36 @@
         <!-- build:css(app) styles/bundle.css -->
         <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
         <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="bower_components/angular-snap/angular-snap.css">
         <link rel="stylesheet" href="styles/bundle.css">
         <!-- endbuild -->
 </head>
   <body ng-app="Expenses">
 
     <!-- Add your site or application content here -->
-    <div class="app-container" ng-view></div>
+    <snap-drawer>
+      <menu></menu>
+    </snap-drawer>
+    <snap-content>
+      <div class="app-container" ng-view></div>
+    </snap-content>
 
     <!-- build:js scripts/modules.js -->
     
     <!-- bower:js -->
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/es5-shim/es5-shim.js"></script>
     <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/json3/lib/json3.min.js"></script>
     <script src="bower_components/angular-route/angular-route.js"></script>
     <script src="bower_components/angular-resource/angular-resource.js"></script>
     <script src="bower_components/angular-animate/angular-animate.js"></script>
     <script src="bower_components/angular-touch/angular-touch.js"></script>
     <script src="bower_components/underscore/underscore.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+    <script src="bower_components/snapjs/snap.js"></script>
+    <script src="bower_components/angular-snap/angular-snap.js"></script>
     <!-- endbower -->
 
     <!-- endbuild -->
@@ -60,6 +73,7 @@
   <script src="scripts/directives/add-tap-state-buttons.js"></script>
   <script src="scripts/directives/show-validation-messages.js"></script>
   <script src="scripts/directives/blur-focus-inputs.js"></script>
+  <script src="scripts/directives/menu.js"></script>
   <!-- yo:directives -->
     <!-- endbuild -->
 

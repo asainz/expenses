@@ -11,6 +11,7 @@ var _mainModules = [
     ,'ngLocale'
     ,'Dashboard'
     ,'Expense'
+    ,'snap'
     // yo:ngMainModules
 ];
 
