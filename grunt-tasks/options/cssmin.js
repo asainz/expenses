@@ -7,6 +7,8 @@ module.exports = function(grunt) {
         dist: {
             files: {
                 '<%= grunt.config.dist %>/styles/bundle.css': [
+                    '<%= grunt.config.app %>bower_components/bootstrap/dist/css/bootstrap.css',
+                    '<%= grunt.config.app %>/bower_components/angular-snap/angular-snap.css',
                     '<%= grunt.config.app %>/styles/{,*/}*.css'
                 ]
             }

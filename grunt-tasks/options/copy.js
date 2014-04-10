@@ -14,7 +14,7 @@ module.exports = function(grunt) {
                         'offline.html',
                         '.htaccess',
                         'images/{,*/}*.{gif,webp,svg,png,jpg,jpeg}',
-                        'styles/fonts/*',
+                        'styles/fonts/**',
                         (function(){
                             var dependenciesToCopyToDist = [];
                             for(var dep in require('../../bower.json').dependencies){

@@ -16,5 +16,5 @@ angular.module('Directives').directive('menu', function () {
                 $location.path('/dashboard');
             };
         }
-    }
+    };
 });

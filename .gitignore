@@ -12,3 +12,6 @@ app/styles/*.css
 *.cache
 mockeyDebugFile.log
 app/scripts/services/environment-config.js
+.heroku
+dist/
+.heroku

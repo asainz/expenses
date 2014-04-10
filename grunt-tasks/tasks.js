@@ -55,12 +55,12 @@ module.exports = function(grunt) {
         'cssmin',
         'cdnify',
         'ngmin',
-        'uglify',
+        // 'uglify',
         'rev',
         'usemin',
-        'copy:dist',
-        'appcache',
-        'replace:appcache'
+        'copy:dist'
+        // 'appcache',
+        // 'replace:appcache'
         
     ]);
     
